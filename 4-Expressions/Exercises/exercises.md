@@ -4,7 +4,7 @@ also in the same directory, the code for the exercises which needed to be writte
 Enjoy.
 
 ---
-# exercise no. 1
+## exercise no. 1
 - see the `1-output.c` file (it exists in the same directory).
 
 ---

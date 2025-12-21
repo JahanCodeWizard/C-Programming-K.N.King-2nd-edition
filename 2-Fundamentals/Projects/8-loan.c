@@ -1,4 +1,4 @@
-// base.c, by Hexenmeister, 14-Nov-2025.
+// loan.c, by Hexenmeister, 14-Nov-2025.
 // From: C Programming: A modern Approach, 2nd edition By K. N. King (Ch. 2, Page 35)
 // loan: This program calulates the remaining balance on a loan afer the 1st, 2nd and 3rd monthly payments.
 

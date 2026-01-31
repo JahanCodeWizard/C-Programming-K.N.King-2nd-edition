@@ -31,7 +31,7 @@ the option `b` is not a legal way to write the number `65`.
 
 ---
 ## exercise no. 6
-a) `short`
+a) `char`
 b) `short`
 c) `short`
 d) `long`
@@ -79,12 +79,16 @@ f) `int`, `6`
 
 ---
 ## exercise no. 14
-if the fractional part of our value is out of range of the `float` precision, we might get the wrong value.
+if the non-fractional part of our value of f is out of range of the `int` type, we will get the wrong value because of the cast operation.
 
 ---
 ## exercise 15
 
 ```c
-// this is the code for this exercise!
-typedef int Int8    // IDK!?
+// this is the code for this exercise
+typedef char Int8;
+
+typedef short int Int16;
+
+typedef long int Int32;
 ```

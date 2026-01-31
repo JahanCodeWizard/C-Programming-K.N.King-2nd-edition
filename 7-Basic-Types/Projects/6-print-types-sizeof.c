@@ -1,6 +1,6 @@
 // 6-print-types-sizeof.c, by JahanCodeWizard, 16-Jan-2026 Fri
 // From: C Programming: A modern Approach, 2nd edition By K. N. King (Ch. 7, Page 158)
-// 6-print-types-sizeof.c: prints the sizeof various types. This program has been written sing the C99 standard.
+// 6-print-types-sizeof.c: prints the sizeof various types. This program has been written using the C99 standard.
 
 #include <stdio.h>
 

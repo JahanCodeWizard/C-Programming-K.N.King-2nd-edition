@@ -10,15 +10,14 @@ int main(void) {
     printf("This program prints a table of squares.\n");
     printf("Enter number of entries in the table: ");
 
-    //n = (int) getchar();
     scanf("%ld", &n);
-    getchar();  // saafty (for consuming the first new-line character after the number has been entered)
+    getchar();  // safty (for consuming the first new-line character after the number has been entered)
 
     for (i = 1; i <= n; i++) {
         printf("%15ld%15ld\n", i, i * i);
         if (i % 24 == 0) {
             printf("Press Enter to continue...");
-            getchar();
+            getchar();  // wait till enter is pressed
         }
     }
     

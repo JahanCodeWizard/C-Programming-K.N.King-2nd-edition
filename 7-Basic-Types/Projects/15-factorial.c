@@ -11,7 +11,8 @@ int main(void) {
     scanf(" %d", &num);
     
     while (num >= 1) {
-        fact *= num--;
+        fact *= num;
+        num--;
     }
 
     printf("Fatorial of %d: %d\n", num, fact);

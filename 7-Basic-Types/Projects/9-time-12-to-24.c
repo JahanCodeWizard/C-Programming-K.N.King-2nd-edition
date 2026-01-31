@@ -14,14 +14,10 @@ int main(void) {
     
     meridiem = tolower(meridiem);
 
-    if (meridiem == 'a') {
-        if (hour == 12) {
-            hour = 0;
-        } 
-    } else if (meridiem == 'p') {
-        if (hour != 12) {
-            hour += 12; // Turns 1:23 PM to 13:23
-        }
+    if (meridiem == 'a' && hour == 12) {
+        hour = 0;
+    } else if (meridiem == 'p' && hour != 12) {
+        hour += 12; // Turns 1:23 PM to 13:23
     } else {
         // invalid input
         printf("Invalid Input!\n");

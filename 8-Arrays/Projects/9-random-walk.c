@@ -20,7 +20,6 @@
 int main() {
     int i, j;
     int col, row, direction;
-    int old_col, old_row;
     
     // this array will containt each letter as foot print symbols on our board
     // we will use the variable named 'step' to index this array

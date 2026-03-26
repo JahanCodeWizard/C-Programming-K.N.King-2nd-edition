@@ -39,23 +39,23 @@ int main(void) {
     }
     
     
-    // start by placing the number 1 in the iddle of row 0
+    // start by placing the number 1 in the middle of row 0
     row = 0, col = n /2 , num = 1;
     magic_square[row][col] = num;
 
     
     // creating the magic square loop
     for (num = 2; num <= n * n; num++) {
-        // Updating indexes and wrap around to the opposite side
+        // Updating indices and wrap around to the opposite side
         col++;
         row--;
 
-        // col (Wrap around)
+        // Wrap around - col
         if (!((0 <= col) && (n > col))) {
             col = 0;
         }
 
-        // row (Wrap around)
+        // Wrap around - row
         if (!((0 <= row) && (n > row))) {
             row = n - 1;
         }
